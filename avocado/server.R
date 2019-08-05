@@ -26,7 +26,7 @@ shinyServer(function(input, output) {
             ggplot(aes(x=Year,y=PLU_Vol)) +
             geom_col(position = 'dodge', aes(fill=PLU)) +
             scale_y_continuous(labels = scales::comma) +
-            xlab("Weeks") + ylab("Avocados Sold")
+            xlab("Year") + ylab("Avocados Sold")
     })
     
     #annual bags sold chart
@@ -39,7 +39,7 @@ shinyServer(function(input, output) {
             ggplot(aes(x=Year,y=Bag_Vol)) +
             geom_col(position = 'dodge', aes(fill=Bags)) +
             scale_y_continuous(labels = scales::comma) +
-            xlab("Weeks") + ylab("Bags Sold")
+            xlab("Year") + ylab("Bags Sold")
     })
     
     #bag distribution by weeks
