@@ -1,0 +1,12 @@
+name: avocado
+title: avocado
+username:
+account: jimmy-jing
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1067775
+bundleId: 2290398
+url: https://jimmy-jing.shinyapps.io/avocado/
+when: 1564973411.27484
+asMultiple: FALSE
+asStatic: FALSE
